@@ -76,12 +76,12 @@
 } */
 /*  */
 nav.nav.flex-column.p-2.pt-4.d-none.d-lg-block.sticky-top {
-  width: 17vh;  /* fit-content */
+  width: 25vh;  /* fit-content */
 }
 
-div.container-fluid div.col-lg-8 {
+/* div.container-fluid div.col-lg-8 {
   overflow-x: hidden;
-}
+} */
 
 /* NOT WORK */
   /* li.nav-item.active */

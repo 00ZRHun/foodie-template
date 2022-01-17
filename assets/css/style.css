@@ -172,3 +172,13 @@ li.nav-item:hover, li.nav-item.active {
   height: 3000px
 }
 /* /Back To Top */
+
+/* page responsive */
+.container.pt-3.pb-5.text-center.bg-light {
+  overflow-x: hidden;
+}
+
+div.col-lg-2 nav.nav.flex-column.p-2.pt-4.d-none.d-lg-block.sticky-top {
+  width: fit-content;
+}
+/* /page responsive */
