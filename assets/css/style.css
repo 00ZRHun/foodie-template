@@ -4,34 +4,18 @@
 .navbar.navbar-expand-lg,
 .nav.flex-column {
   background-color: crimson;
-  /*  */
-  /* position: fixed;   */
 }
-/*  */
-/* nav.nav.flex-column.p-2.pt-4.d-none.d-lg-block.sticky-top {
-  margin-top: 80px;
-} */
-/*  */
-nav.nav.flex-column.p-2.pt-4.d-none.d-lg-block.sticky-top {
-  width: fit-content
-}
-
-div.container-fluid div.col-lg-8 {
-  overflow-x: hidden;
-}
-/*  */
-
 .navbar.navbar-expand-lg .navbar-nav > li > a,
 .nav.flex-column > li > a {
   background-color: crimson;
   display: inline-block;
   color: white;
 }
-.navbar.navbar-expand-lg .navbar-nav > li > a:hover,
-.nav.flex-column > li > a:hover, li.nav-item.active {  /*  */
+/* .navbar.navbar-expand-lg .navbar-nav > li > a:hover,
+.nav.flex-column > li > a:hover */
+li.nav-item:hover, li.nav-item.active {
   font-weight: bold;
   border: 2px solid white;
-
 }
 
 .navbar.navbar-expand-lg .navbar-nav > li >a::after,
