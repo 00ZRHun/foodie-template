@@ -35,7 +35,8 @@
             transform: skewY(-5deg);
         }
         .motor {
-            width: 500px;
+            /* width: 500px; */
+            width: 40vw;
             position: absolute;
             bottom: 150px;
             right: -200px;
@@ -57,11 +58,18 @@
 
         /* <!-- background audio */
         audio#bg-sound {
+            width: 50vw;
             bottom: 0px;
             position: absolute;left: 50%;
             transform: translate(-50%, -50%);
         }
         /* background audio --> */
+
+        /* <!-- menu table */
+        table {
+            white-space: nowrap;
+        }
+        /* menu table --> */
     </style>
 </head>
 <body>
@@ -111,7 +119,7 @@
                 <div class="container pt-3 pb-5 text-center bg-light">
                     <div class="deliver-animation">
                         <div class="road"></div>
-                        <img src="images/motor.png" class="motor" alt="delivery motor">
+                        <img src="images/motor.png" class="motor" alt="delivery motor" width="20vw" height="auto">
                         <audio controls loop="true" autoplay="autoplay" id="bg-sound">
                             <source src="horse.ogg" type="audio/ogg">
                             <source src="audio/AY6DX28-car-engine-revving.mp3" type="audio/mp3">  <!-- mpeg -->
@@ -125,52 +133,54 @@
                             <p>Order and Delivery</p>
                         </div>
                         
-                        <table class="table table-striped table-dark">
-                            <thead>
-                              <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Product</th>
-                                <th scope="col">Price</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row">1</th>
-                                <td>Grilled Chicken Thigh</td>
-                                <td>RM 15.00</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">2</th>
-                                <td>Fish and Chip</td>
-                                <td>RM 15.00</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">3</th>
-                                <td>Lamb Rack</td>
-                                <td>RM 24.00</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">4</th>
-                                <td>Serlion Steak</td>
-                                <td>RM 24.00</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">5</th>
-                                <td>Mushroom Carbonara</td>
-                                <td>RM 15.00</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">6</th>
-                                <td>Hot & Spring Chicken</td>
-                                <td>RM 45.00</td>
-                              </tr>
-                              <tr>
-                                <th scope="row">7</th>
-                                <td>Aticca Special Iced Chocolate</td>
-                                <td>RM 6.00</td>
-                              </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Product (unit)</th>
+                                    <th scope="col">Price (RM)</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Grilled Chicken Thigh</td>
+                                    <td>15.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>Fish and Chip</td>
+                                    <td>15.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>Lamb Rack</td>
+                                    <td>24.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">4</th>
+                                    <td>Serlion Steak</td>
+                                    <td>24.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">5</th>
+                                    <td>Mushroom Carbonara</td>
+                                    <td>15.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">6</th>
+                                    <td>Hot & Spring Chicken</td>
+                                    <td>45.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">7</th>
+                                    <td>Aticca Special Iced Chocolate</td>
+                                    <td>6.00</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 
